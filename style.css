@@ -151,7 +151,7 @@ body{
     height: 50%;
     width: 100%;
     text-align: center;
-    background-image: url('/img/pexels-photo-303349.jpeg');
+    background-image: url("pexels-photo-303349.jpeg");
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
@@ -162,7 +162,7 @@ body{
     height: 50%;
     width: 100%;
     text-align: center;
-    background-image: url('/img/pexels-photo-303349.jpeg');
+    background-image: url("pexels-photo-303349.jpeg");
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
@@ -173,7 +173,7 @@ body{
     height: 50%;
     width: 100%;
     text-align: center;
-    background-image: url('/img/pexels-pixabay-46244.jpg');
+    background-image: url("pexels-pixabay-46244.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     background-size: 100% 100%;
