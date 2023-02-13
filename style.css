@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+ }
+.header {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 100px;
+    color: black;
+    font-size: 250%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    list-style-type: none;
+}
+
+.nav a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.content {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+/* Left Bar */
+.left_bar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 28%;
+    align-items: center;
+    background-color: white;
+}
+
+.border1 {
+    background-color: rgb(56, 56, 56);
+    height: 0.5%;
+    width: 35%;
+    border: 1px solid rgb(56, 56, 56);
+    margin-right: 60%;
+}
+
+.left_bar h1 {
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 37;
+}
+
+.signup_button {
+    margin-top: 8%;
+    margin-right: 40%;
+    height: 44px;
+    width: 45%;
+    background-color: rgb(233, 171, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12;
+
+}
+
+.news_letter_button {
+    margin-top: 8%;
+    height: 44px;
+    width: 85%;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12;
+}
+
+.left_bar p {
+
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.right_bar {
+    display: flex;
+    margin-left: 1%;
+    background-color: white;
+    height: 100vh;
+    width: 72%;
+    object-fit: scale-down;
+}
+
+.left_image{
+    background-image: url('/img/pexels-gabriela-guerino-1839904.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100%;
+    width: 50%;
+
+}
+
+.right_images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
+    width: 52%;
+    gap: 1%;
+}
+
+.image1 {
+    
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    background-image: url('/img/pexels-photo-303349.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+.image1 {
+    
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    background-image: url('/img/pexels-photo-303349.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+.image2 {
+
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    background-image: url('/img/pexels-pixabay-46244.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+
+
+footer{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
